@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Agatha Sakowicz </title>
+</head>
+<body>
+   <section class="hero-img">
+    <nav id="overlay">
+        <img src="css/images/close.svg" class="close-btn" id="close-menu">
+        <ul>
+            <li><a href="#">Intro</a><span> This is were you start</span></li>
+            <li><a href="#">Work</a><span>My portfolio, good stuff</span></li>
+            <li><a href="#">About</a><span>A bit of who I am</span></li>
+            <li><a href="#">Polski?</a><span> Tutaj znajdziesz mój blog</span></li>
+            <li><a href="#">Contact</a><span>Fancy working with me?</span></li>
+           
+        </ul>
+      
+        <div class="bottom-menu">
+            <h5>Get in Touch</h3>
+            <ul class="social-list">
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </ul>
+        </div>
+       
+    </nav>
+    <header>
+        <a href="#"> <img src="css/images/logo.svg" alt="Agatha Design logo" class="logo"> </a>
+        <img src="css/images/menu.svg" class="menu-btn" id="open-menu">
+       
+    </header>
+    <section class="hero">
+        <h1> Hi, I'm <br> Agatha</h1>
+        <h3>Web Designer and dog lover,<br> who values positive user experience</h3>
+        <h5>Currently based in Manchester, UK <br>With my little French-Bulldog</h5>    
+        <a href="#" class="pinkButton">Let's chat</a>
+       
+    </section>
+</section>
+<script>
+    var overlay=document.getElementById('overlay');
+    var closeMenu=document.getElementById('close-menu');
+
+    document.getElementById('open-menu').addEventListener('click', function(){
+        overlay.classList.add('show-menu');
+        overlay.classList.remove('hide-menu')
+    });
+    document.getElementById('close-menu').addEventListener('click', function(){
+        overlay.classList.remove('show-menu');
+        overlay.classList.add('hide-menu')
+    });
+</script>
+</body>
+</html>
