@@ -11,7 +11,7 @@
 </head>
 <body>
    <div id="page-wrapper">
-   
+    <!-- Header -->
     <header>
         <a href="#"> <img src="css/images/logo.svg" class="logo"> </a>
         <img src="css/images/menu.svg" alt="Full screen menu open"  class="menu-btn" id="open-menu">
@@ -44,11 +44,91 @@
             <h1> Hi, I'm <br> Agatha</h1>
             <p class="subtitle">Web Designer and dog lover,<br> who values positive user experience</p>
             <p class="subtitle1">Currently based in Manchester, UK <br>With my little French-Bulldog</p>    
-        <a href="#" class="pinkButton">Let's chat</a>
+        <a href="#" class="pink-button">Let's chat</a>
         </div>
         <a href="#portfolio" class="goto-next scrolly">Next</a>
     </section>
+     <!-- Portfolio -->
     <section id="portfolio">
+        <div class="design-container">
+            <div class="design-content">
+                <img src="css/images/icon1.svg" alt="laptop icon" class="icon">
+                <h1>UI/UX Design</h1>
+                <p>Optimised UI/UX for digital products</p>
+                <p>help grow your business</p>
+                <a href="#" class="purple-button">See projects</a>
+            </div>
+            <div class="portfolio-image">
+                <img src="css/images/designImg.svg" alt="portfolio item1 image" class="image">
+            </div> 
+        </div>
+        <div class="section-name">
+            <p>Services</p>
+        </div>
+    </section>
+     <section id="portfolio">
+        <div class="mobile-container">
+            <div class="portfolio-image">
+                <img src="css/images/mobileImg.svg" alt="portfolio item2 image" class="image">
+            </div> 
+            <div class="mobile-content">
+                <img src="css/images/icon2.svg" alt="phone icon" class="icon">
+                <h1>Mobile first</h1>
+                <p>I help to identify your business</p>
+                <p>modern trendy designs</p>
+                <a href="#" class="green-button">See projects</a>
+            </div>
+        </div>
+        <div class="commerce-container"> 
+            <div class="commerce-content">
+                <img src="css/images/icon3.svg" alt="phone icon" class="icon">
+                <h1>E-commerce</h1>
+                <p>From static website to e-commerce </p>
+                <p>shops, all mobile responsive</p>
+                <a href="#" class="pink-button">See projects</a>
+            </div>
+            <div class="portfolio-image">
+                <img src="css/images/commerceImg.svg" alt="portfolio item2 image" class="image">
+            </div>
+        </div>
+
+    </section>
+    <!--Image carusel -->
+    <section id="carusel">
+
+    </section>
+
+    <!-- Testimonials-->
+    <section id="testimonials">
+        <h1>Client's say</h1>
+    <div class="testimonials-content">
+        <div class="testimonial-1">
+            <h2>“I have been working with Agatha on number of projects, and she is my number one for web design”</h2>
+            <p>Alex Taiwo - TAD360</p>
+        </div>
+        <div class="testimonial-2">
+            <h2>"Fantastic service very personable and professional. Agatha put loads of effort in to making sure my site was as perfect as can be. Thank you!"</h2>
+            <p>John Evans - Be for Blinds</p>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="cta">
+            <div class="cta-content">
+                <h1>Let’s collaborate!</h1>
+                <p>Grab be for a coffee or video call</p> 
+                  <p>and discuss possibilities</p>
+            </div>
+            <div class="cta-btn">
+                <a href="#" class="pink-button">Contact me</a>
+            </div>
+            
+             
+        </div>
+       
 
     </section>
     <!-- Footer -->
@@ -65,6 +145,7 @@
         </ul>
     </footer>
 </div>
+    <!--JavaScript, move to separate file later --> 
 <script>
     var overlay=document.getElementById('overlay');
     var closeMenu=document.getElementById('close-menu');
