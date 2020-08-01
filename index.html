@@ -10,42 +10,61 @@
     <title> Agatha Sakowicz </title>
 </head>
 <body>
-   <section class="hero-img">
-    <nav id="overlay">
-        <img src="css/images/close.svg" class="close-btn" id="close-menu">
-        <ul>
-            <li><a href="#">Intro</a><span> This is were you start</span></li>
-            <li><a href="#">Work</a><span>My portfolio, good stuff</span></li>
-            <li><a href="#">About</a><span>A bit of who I am</span></li>
-            <li><a href="#">Polski?</a><span> Tutaj znajdziesz mój blog</span></li>
-            <li><a href="#">Contact</a><span>Fancy working with me?</span></li>
-           
-        </ul>
-      
-        <div class="bottom-menu">
-            <h5>Get in Touch</h3>
-            <ul class="social-list">
-                <i class="fa fa-facebook-f"></i>
-                <i class="fa fa-youtube"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-linkedin"></i>
-            </ul>
-        </div>
-       
-    </nav>
+   <div id="page-wrapper">
+   
     <header>
-        <a href="#"> <img src="css/images/logo.svg" alt="Agatha Design logo" class="logo"> </a>
-        <img src="css/images/menu.svg" class="menu-btn" id="open-menu">
+        <a href="#"> <img src="css/images/logo.svg" class="logo"> </a>
+        <img src="css/images/menu.svg" alt="Full screen menu open"  class="menu-btn" id="open-menu">
+        <nav id="overlay">
+            <img src="css/images/close.svg" alt="Full screen menu close"class="close-btn" id="close-menu">
+            <ul>
+                <li><a href="#">Intro</a><span> This is were you start</span></li>
+                <li><a href="#">Work</a><span>My portfolio, good stuff</span></li>
+                <li><a href="#">About</a><span>A bit of who I am</span></li>
+                <li><a href="#">Polski?</a><span> Tutaj znajdziesz mój blog</span></li>
+                <li><a href="#">Contact</a><span>Fancy working with me?</span></li>
+               
+            </ul>
+          
+            <div class="bottom-menu">
+                <p>Get in Touch</p>
+                <ul class="social-list">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </ul>
+            </div>
+           
+        </nav>
        
     </header>
-    <section class="hero">
-        <h1> Hi, I'm <br> Agatha</h1>
-        <h3>Web Designer and dog lover,<br> who values positive user experience</h3>
-        <h5>Currently based in Manchester, UK <br>With my little French-Bulldog</h5>    
+    <section id="hero-content">
+        <div class="content">
+            <h1> Hi, I'm <br> Agatha</h1>
+            <p class="subtitle">Web Designer and dog lover,<br> who values positive user experience</p>
+            <p class="subtitle1">Currently based in Manchester, UK <br>With my little French-Bulldog</p>    
         <a href="#" class="pinkButton">Let's chat</a>
-       
+        </div>
+        <a href="#portfolio" class="goto-next scrolly">Next</a>
     </section>
-</section>
+    <section id="portfolio">
+
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        
+        <p>Designed by Agatha Design | <a href="http://agathadesign.co.uk">Privacy Policy</a></p>
+        
+        <ul class="icons">
+            <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+         
+        </ul>
+    </footer>
+</div>
 <script>
     var overlay=document.getElementById('overlay');
     var closeMenu=document.getElementById('close-menu');
