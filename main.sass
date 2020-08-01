@@ -584,31 +584,7 @@ nav{
     }
 
 }
-/* Footer */
-
-#footer {
-   
-    padding: 6em 0;
-    text-align: center;
-    align-items: center;
-    
-    ul{
-        list-style-type: none;
-       
-        
-    
-    }
-    .icons{
-            margin: 0 auto 0 auto;
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            width: 20%;
-            list-style-type: none;
-            font-size: 1.2em;
-
-    }
-
-}
+/* Carusel */
 
 /* Testimonials*/
 #testimonials{
@@ -822,6 +798,31 @@ nav{
     }
 
 }
+/* Footer */
+
+#footer {
+   
+    padding: 6em 0;
+    text-align: center;
+    align-items: center;
+    
+    ul{
+        list-style-type: none;
+       
+        
+    
+    }
+    .icons{
+            margin: 0 auto 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            width: 20%;
+            list-style-type: none;
+            font-size: 1.2em;
+
+    }
+
+}
 /* Media */
 
 @media(max-width: 480px){
@@ -852,11 +853,7 @@ nav{
                 width: 70%;
         
             }
-            
-    
         } 
-        
-
     }
         #hero-content{
             padding: 1em;
@@ -885,16 +882,6 @@ nav{
                 display: none;
             }
         }
-
-        #footer{
-
-           .icons{
-               width:40%;
-               padding: 0px;
-           }
-        }
-    
-
         #portfolio{
             margin: 2em;
             padding-top: 40px;
@@ -976,6 +963,24 @@ nav{
                 flex-direction: column;
             }
         }
+        #banner{
+            padding: 1em;
+            .cta .cta-content{
+                margin: 2em 2em 2em 2em;
+            }
+        }
+
+        #footer{
+            p{
+                font-size: 12px;
+            }
+
+            .icons{
+                width:40%;
+                padding: 0px;
+            }
+         }
+     
     }
     
 }
